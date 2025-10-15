@@ -1,16 +1,29 @@
-# React + Vite
+React-Todo-Tailwind-Context-app
+Project Status: Live & Complete | Version: 1.0.0
+A modern and fully responsive To-Do List Application built using React and Vite। This project showcases industry best practices in state management with the Context API and styling with Tailwind CSS।
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Live Demo
+Check out the deployed version of the application:
+➡️ http://react-todo-tailwind-context-app.netlify.app
 
-Currently, two official plugins are available:
+💡 Core Features & Technical Highlights
+Global State Management: Uses React's Context API to manage the tasks array globally and avoid prop drilling।
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Data Persistence: Tasks are saved in the browser's localStorage so they persist even after a refresh।
+CRUD Operations: Complete ability to Create, Read, Update (Edit), and Delete tasks।
+Modern Styling: Utilizes Tailwind CSS for a utility-first approach to create a clean and responsive UI।
+Component Architecture: Follows a clear component-based structure for maintainability and scalability।
 
-## React Compiler
+🤖 AI-Assisted Development
+This project was built using modern AI tools like Gemini and GPT to accelerate the development process and ensure best practices in React architecture and logic।
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Tech Stack
+Category Technology Purpose
+Framework React (Vite) Fast development and Component-based UI
+State Layer Context API Efficient state sharing across components
+Styling Tailwind CSS Utility-first styling framework
+Deployment Netlify Continuous Integration and Global Deployment
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
